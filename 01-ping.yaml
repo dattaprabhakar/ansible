@@ -1,6 +1,6 @@
 - name: ping to server
   hosts: front
   tasks:
-  -name: ping to server
-   ansible.built.ping:
+  - name: ping to server
+    ansible.built.ping:
 
