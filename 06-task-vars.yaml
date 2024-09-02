@@ -1,5 +1,5 @@
 - name: variables to print
-  hosts: web
+  hosts: front
   vars: #play level, all tasks in this play have access to this
      COURSE: "ansible"
      DURATION: "20HRS"
