@@ -1,5 +1,5 @@
 - name: variables to print
-  hosts: web
+  hosts: front
   vars:
     COURSE: "ansible"
     DURATION: "20HRS"
