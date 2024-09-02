@@ -2,5 +2,5 @@
   hosts: front
   tasks:
   - name: ping to server
-    ansible.built.ping:
+    ansible.builtin.ping:
 
