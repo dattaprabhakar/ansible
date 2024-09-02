@@ -1,0 +1,7 @@
+- name: variables to print
+  hosts: front
+
+  tasks:
+  - name: print the information
+    ansible.builtin.debug:
+      msg: "Hello {{NAME}}, Good {{GREETING}}"
