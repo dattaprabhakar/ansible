@@ -1,5 +1,5 @@
 - name: loops demo
-  hosts: web
+  hosts: fornt
   become: yes
   tasks:
   - name: install packages
