@@ -1,5 +1,5 @@
 - name: loops demo
-  hosts: fornt
+  hosts: front
   become: yes
   tasks:
   - name: install packages
