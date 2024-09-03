@@ -1,6 +1,6 @@
 - name: install nginx
   become: yes
-  hosts: web
+  hosts: front
   tasks:
   - name: print the stats
     ansible.builtin.debug:
